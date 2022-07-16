@@ -1,6 +1,25 @@
 {
   "name": "ngx-ggist",
+  "description": "Package for embedding and configuring GitHub Gists within Angular 12 apps",
   "version": "0.1.13",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jocelo/ngx-ggist"
+  },
+  "keywords": [
+    "angular",
+    "angular 12",
+    "typescript",
+    "gist",
+    "ngx-ggist",
+    "github gist"
+  ],
+  "author": "Alfredo Alonso <jocelohere@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jocelo/ngx-ggist/issues"
+  },
+  "homepage": "https://github.com/jocelo/ngx-ggist",
   "peerDependencies": {
     "@angular/common": "^12.0.5",
     "@angular/core": "^12.0.5"
