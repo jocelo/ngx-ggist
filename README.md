@@ -1,11 +1,10 @@
+Wrapper to add a GitHub Gist on angular.
+
 <p align="center">
   <img height="200px" width="200px" style="text-align: center" src="https://cdn.rawgit.com/MurhafSousli/ngx-highlightjs/b8b00ec3/src/assets/logo.svg">
   <h1 align="center">Angular Highlight.js</h1>
 </p>
-
-Wrapper to add a GitHub Gist on angular.
 ___
-
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.5.
 
