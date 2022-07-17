@@ -67,8 +67,7 @@ There are more configurations available, optional.
 | **scriptId** | `string` | The `script id` of your gist, usually the last parameter in the URL. <br /> *(i.e. 4171e2f2b5ea64bdf974d6d2e5683cce)* |
 | **width** | `string` | A string to define the width of the gist container; default: `600px` <br /> *(i.e. '100%')* |
 | **height** | `string` | A string to define the height of the gist container; default: `inherit` <br />*(i.e. '400px')* |
-| **lines** | `array` of `number` | An array of numbers. Each number represents a line in your gist file and that line will be highlighted; none are highlighted by default.<br />*(i.e. [1, 2, 3])*
-|
+| **lines** | `array` of `number` | An array of numbers. Each number represents a line in your gist file and that line will be highlighted; none are highlighted by default.<br />*(i.e. [1, 2, 3])*|
 
 ### More examples
 Example below, will display the gist `417...cce`, on a `400px` height container, highlighting lines `1, 2, 3`.
