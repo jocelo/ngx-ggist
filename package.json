@@ -8,7 +8,7 @@
   },
   "keywords": [
     "angular",
-    "angular 12",
+    "angular 13",
     "typescript",
     "gist",
     "ngx-ggist",
@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/jocelo/ngx-ggist",
   "peerDependencies": {
-    "@angular/common": "^12.0.5",
-    "@angular/core": "^12.0.5"
+    "@angular/common": "~13.3.11",
+    "@angular/core": "~13.3.11"
   },
   "dependencies": {
     "tslib": "^2.1.0"
