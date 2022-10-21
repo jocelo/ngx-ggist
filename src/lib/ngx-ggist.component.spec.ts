@@ -8,9 +8,9 @@ describe('NgxGgistComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NgxGgistComponent ]
+      declarations: [NgxGgistComponent]
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {
@@ -21,5 +21,9 @@ describe('NgxGgistComponent', () => {
 
   it('should create', () => {
     expect(component).toBeTruthy();
+  });
+
+  it('should render default gist', () => {
+    console.log(component);
   });
 });
