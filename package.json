@@ -1,7 +1,7 @@
 {
   "name": "ngx-ggist",
   "description": "Package for embedding and configuring GitHub Gists within Angular 13 apps",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jocelo/ngx-ggist"
