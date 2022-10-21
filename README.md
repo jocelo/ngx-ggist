@@ -1,13 +1,13 @@
 <p align="center">
   <img height="200px" width="200px" style="text-align: center" src="https://cdn.rawgit.com/MurhafSousli/ngx-highlightjs/b8b00ec3/src/assets/logo.svg">
-  <h1 align="center">GitHub gist on Angular 12</h1>
+  <h1 align="center">GitHub gist on Angular 13</h1>
 </p>
 
 [![Demo](https://img.shields.io/badge/demo-online-ed1c46.svg)](https://stackblitz.com/)
 [![Stackblitz](https://img.shields.io/badge/stackblitz-online-orange.svg)](https://stackblitz.com/edit/ngx-highlightjs)
 [![License](https://img.shields.io/npm/l/express.svg?maxAge=2592000)](/LICENSE)
 
-Add a GitHub gist to your angular 12 project in an instant.
+Add a GitHub gist to your angular 13 project in an instant.
 
 ---
 
