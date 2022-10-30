@@ -36,4 +36,14 @@ describe('NgxGgistComponent', () => {
     expect(component.user).toBe('jocelo');
     expect(component.scriptId).toBe('dab6058aab6491b1da49336887d9d935');
   });
+
+  it('should inject values into component', () => {
+    component.lines = [1, 2, 3, 5, 8];
+    component.updateLines();
+    expect(component.theStyle).toContain('tr:nth-of-type(1)');
+    expect(component.theStyle).toContain('tr:nth-of-type(2)');
+    expect(component.theStyle).toContain('tr:nth-of-type(3)');
+    expect(component.theStyle).toContain('tr:nth-of-type(5)');
+    expect(component.theStyle).toContain('tr:nth-of-type(8)');
+  })
 });
