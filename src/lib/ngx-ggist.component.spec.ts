@@ -21,9 +21,19 @@ describe('NgxGgistComponent', () => {
 
   it('should create', () => {
     expect(component).toBeTruthy();
+    expect(component).toBeInstanceOf(NgxGgistComponent);
   });
 
   it('should render default gist', () => {
-    console.log(component);
+    expect(component.iframe?.nativeElement.contentDocument.querySelector('script').attributes.src.value)
+      .toBe(component.scriptSrc);
+  });
+
+  it('should load default options', () => {
+    expect(component.lines.length).toBe(0);
+    expect(component.width).toBe('600px');
+    expect(component.height).toBe('inherit');
+    expect(component.user).toBe('jocelo');
+    expect(component.scriptId).toBe('dab6058aab6491b1da49336887d9d935');
   });
 });
