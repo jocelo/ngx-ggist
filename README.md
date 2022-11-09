@@ -4,7 +4,7 @@
 </p>
 
 [![Demo](https://img.shields.io/badge/demo-online-ed1c46.svg)](https://stackblitz.com/)
-[![Stackblitz](https://img.shields.io/badge/stackblitz-online-orange.svg)](https://stackblitz.com/edit/ngx-highlightjs)
+[![Stackblitz](https://img.shields.io/badge/stackblitz-online-orange.svg)](https://angular-ivy-axwpy9.stackblitz.io)
 [![License](https://img.shields.io/npm/l/express.svg?maxAge=2592000)](/LICENSE)
 
 Add a GitHub gist to your angular 13 project in an instant.
@@ -12,7 +12,7 @@ Add a GitHub gist to your angular 13 project in an instant.
 ---
 
 ## Table of Contents
-- [Live Demo](#https://stackblitz.com/)
+- [Live Demo](https://angular-ivy-axwpy9.stackblitz.io)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Author](#author)
